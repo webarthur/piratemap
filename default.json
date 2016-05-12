@@ -1,0 +1,24 @@
+{ "class": "go.TreeModel",
+	"nodeDataArray": [
+  {"key":0, "text":"Modelo de Exemplo", "loc":"0 0"},
+  {"key":1, "parent":0, "text":"Tarefas", "brush":"skyblue", "dir":"right", "loc":"134.89892578125 -31.75"},
+  {"key":11, "parent":1, "text":"Tarefa 1", "brush":"skyblue", "dir":"right", "loc":"197.52978515625 -57.75"},
+  {"key":12, "parent":1, "text":"Tarefa 2", "brush":"skyblue", "dir":"right", "loc":"197.52978515625 -31.75"},
+  {"key":13, "parent":1, "text":"Tarefa 3", "brush":"skyblue", "dir":"right", "loc":"197.52978515625 -5.75"},
+  {"key":2, "parent":0, "text":"Site", "brush":"darkseagreen", "dir":"right", "loc":"134.89892578125 52.75"},
+  {"key":21, "parent":2, "text":"Home", "brush":"darkseagreen", "dir":"right", "loc":"184.89892578125 20.25"},
+  {"key":22, "parent":2, "text":"Quem somos", "brush":"darkseagreen", "dir":"right", "loc":"184.89892578125 46.25"},
+  {"key":3, "parent":0, "text":"Equipe", "brush":"palevioletred", "dir":"left", "loc":"-20 -24.995311759231612"},
+  {"key":31, "parent":3, "text":"João", "brush":"palevioletred", "dir":"left", "loc":"-80.47900390625 -63.99531175923161"},
+  {"key":4, "parent":0, "text":"Lista de Compras", "brush":"coral", "dir":"left", "loc":"-20 45.995311759231626"},
+  {"key":41, "parent":4, "text":"Banana", "brush":"coral", "dir":"left", "loc":"-141.8798828125 19.995311759231626"},
+  {"key":42, "parent":4, "text":"Nabo", "brush":"coral", "dir":"left", "loc":"-141.8798828125 45.995311759231626"},
+  {"key":43, "parent":4, "text":"Soja", "brush":"coral", "dir":"left", "loc":"-141.8798828125 71.99531175923163"},
+  {"text":"Contato", "brush":"darkseagreen", "dir":"right", "parent":2, "key":-17, "loc":"184.89892578125 85.25"},
+  {"text":"Formulário", "brush":"darkseagreen", "dir":"right", "parent":-17, "key":-16, "loc":"250.4306640625 72.25"},
+  {"text":"Endereço", "brush":"darkseagreen", "dir":"right", "parent":-17, "key":-18, "loc":"250.4306640625 98.25"},
+  {"text":"Mary", "brush":"palevioletred", "dir":"left", "parent":3, "key":-19, "loc":"-80.47900390625 -37.99531175923161"},
+  {"text":"Mohamed", "brush":"palevioletred", "dir":"left", "parent":3, "key":-20, "loc":"-80.47900390625 -11.995311759231612"},
+  {"text":"Ikari", "brush":"palevioletred", "dir":"left", "parent":3, "key":-21, "loc":"-80.47900390625 14.004688240768388"}
+   ]
+}
