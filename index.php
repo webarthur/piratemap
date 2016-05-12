@@ -93,10 +93,13 @@ if(isset($_POST['save'])){
 
 <div text="top" layout="table-cell gray-10" style="width:220px; border-left:2px solid #ccc">
   <menu text="center" layout="gray-20 no-margin padding-10">
-    <button onclick="save_json()">Salvar</button>
+    <button onclick="save_json()"><b>Salvar</b></button>
     <button onclick="layoutAll()">Reorganizar</button>
   </menu>
   <input type="text" id="author" placeholder="Digite seu nome" layout="fluid padding-5" />
+  <p text="bold orange" layout="no-margin padding-10 black">
+    Lembre-se de salvar qdo terminar de editar! Senão vai perder oq já fez...
+  </p>
   <div layout="padding-5 v-margin-10">
     <small>json:</small>
     <textarea id="mySavedModel" layout="fluid gray-10" rows="3" style="font-size:.7em">
