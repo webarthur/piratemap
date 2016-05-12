@@ -91,7 +91,7 @@ if(isset($_POST['save'])){
 
 <div id="myDiagramDiv" style="height:100%;"></div>
 
-<div text="top" layout="table-cell gray-10" style="width:200px; border-left:2px solid #ccc">
+<div text="top" layout="table-cell gray-10" style="width:220px; border-left:2px solid #ccc">
   <menu text="center" layout="gray-20 no-margin padding-10">
     <button onclick="save_json()">Salvar</button>
     <button onclick="layoutAll()">Reorganizar</button>
@@ -124,6 +124,11 @@ if(isset($_POST['save'])){
         echo "<a href='#' onclick='return loadHistory(this)' layout='block padding-5' data-json=\"$json\">$date por $item->author</a>";
       }
       ?>
+    </div>
+    <div <?php if(!$data) echo 'style="display:none"' ?>>
+      <hr />
+      <small>Git:</small> <br />
+      <small><small><a href="https://github.com/webarthur/piratemap/" target="_blank">https://github.com/webarthur/piratemap/</a></small></small>
     </div>
 
   </div>
