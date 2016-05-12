@@ -39,7 +39,7 @@ if(isset($_POST['save'])){
   <meta name="description" content="A mind map editor, showing how subtrees can be moved, copied, deleted, and laid out." />
   <!-- Copyright 1998-2016 by Northwoods Software Corporation. -->
   <meta charset="UTF-8">
-  <script src="go2.js"></script>
+  <script src="go.js"></script>
   <link href="helpers.min.css" rel="stylesheet" type="text/css" />  <!-- you don't need to use this -->
   <script src="piratemap.js"></script>
   <style>
