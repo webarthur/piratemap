@@ -85,11 +85,24 @@ if(isset($_POST['save'])){
 
     return text;
 }
+
   </script>
 </head>
 <body onload="init()" layout="no-margin table">
 
 <div id="myDiagramDiv" style="height:100%;"></div>
+<script>
+// gambiarra pra fazer funcionar no maldito firefox
+if(navigator.userAgent.indexOf('Firefox')>-1) {
+  var body = document.body,
+    html = document.documentElement;
+
+var height = Math.max( body.scrollHeight, body.offsetHeight,
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+                       document.getElementById('myDiagramDiv').style.height = height+'px';
+
+}
+</script>
 
 <div text="top" layout="table-cell gray-10" style="width:220px; border-left:2px solid #ccc">
   <menu text="center" layout="gray-20 no-margin padding-10">
